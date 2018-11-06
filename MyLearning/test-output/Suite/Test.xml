@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="EPINPUNW0077" name="com.testng.firstPackage.FirstClassInFirstPackage" tests="2" failures="0" timestamp="25 Oct 2018 06:12:45 GMT" time="0.028" errors="0">
+  <testcase name="firstTestCase" time="0.011" classname="com.testng.firstPackage.FirstClassInFirstPackage"/>
+  <testcase name="secondTestCase" time="0.002" classname="com.testng.firstPackage.FirstClassInFirstPackage"/>
+</testsuite>

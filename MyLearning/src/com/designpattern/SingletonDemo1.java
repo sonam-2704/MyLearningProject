@@ -7,7 +7,7 @@ package com.designpattern;
 
 class Abc{
 	
-	static Abc obj = new Abc();     // Eagerly instance creation
+	private static Abc obj = new Abc();     // Eagerly instance creation
 	// even though the instance is not required it is there in memory
 	
 	private Abc(){

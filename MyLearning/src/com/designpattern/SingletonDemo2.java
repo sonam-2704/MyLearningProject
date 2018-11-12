@@ -31,7 +31,6 @@ class Abc2{
 public class SingletonDemo2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

@@ -6,5 +6,6 @@
 	<classpathentry kind="lib" path="lib/jcommander.jar"/>
 	<classpathentry kind="lib" path="lib/testng-6.0.jar"/>
 	<classpathentry kind="lib" path="lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="lib/webdrivermanager-3.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

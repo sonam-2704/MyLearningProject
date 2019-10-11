@@ -8,6 +8,8 @@ public class ObserverPatternDemo {
 
 		Observer1 observer1 = new Observer1(objSubject);
 
+		Observer2 observer2 = new Observer2(objSubject);
+		
 		objSubject.setState(10);
 
 	}

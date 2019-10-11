@@ -1,5 +1,11 @@
 package com.designpattern;
 
+
+/**
+ * Thread safe
+ *
+ */
+
 class Abc3 {
 
 	private static Abc3 obj;

@@ -36,8 +36,6 @@ public class MyMultiSelect {
 			System.out.println(ele.getText());
 		}
 		
-	
-		
 		select.deselectByIndex(0);
 		select.deselectByValue("saab");;
 		select.deselectByVisibleText("Opel");

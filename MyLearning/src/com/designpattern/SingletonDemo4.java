@@ -1,5 +1,11 @@
 package com.designpattern;
 
+
+/**
+ * Double Checked Locking
+ *
+ */
+
 class Abc4 {
 
 	private static Abc4 obj;

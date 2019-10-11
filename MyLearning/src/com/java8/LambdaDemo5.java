@@ -48,7 +48,7 @@ public class LambdaDemo5 {
 		Collections.sort(list, c1);
 		
 		list.forEach(System.out::println);
-
+		System.out.println(list);
 	}
 
 }

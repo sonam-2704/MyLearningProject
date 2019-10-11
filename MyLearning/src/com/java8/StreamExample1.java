@@ -7,7 +7,6 @@ import java.util.stream.*;
 public class StreamExample1 {
 
 	public static void main(String[] args) {
-
 		
 		int x = IntStream.range(1, 10).sum();
 		System.out.println(x);

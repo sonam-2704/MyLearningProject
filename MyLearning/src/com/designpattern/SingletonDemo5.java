@@ -1,5 +1,10 @@
 package com.designpattern;
 
+/**
+ * ENUM
+ *
+ */
+
 enum Abc5{
 	
 	INSTANCE;
@@ -9,6 +14,7 @@ enum Abc5{
 		System.out.println(i);
 	}
 }
+
 public class SingletonDemo5 {
 
 	public static void main(String[] args) {

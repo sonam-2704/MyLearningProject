@@ -38,6 +38,15 @@ public class JavaStreamExample1 {
 		
 		Set<Product> productPriceList2 = productsList.stream().filter(product -> product.price < 30000).collect(Collectors.toSet());
 		
+		System.out.println(productPriceList2);
+		
+		for(Product p : productPriceList2){
+			
+			System.out.println(p.id);
+			System.out.println(p.name);
+			System.out.println(p.price);
+		}
+		
 		Stream<Product> x = productsList.stream().filter(product -> product.price < 30000);
 		
 		

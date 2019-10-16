@@ -18,5 +18,6 @@ public class MapLambdaDemo {
 				.collect(Collectors.toMap(map -> map.getKey(), map -> map.getValue()));
 
 		System.out.println(result);
+		    
 	}
 }

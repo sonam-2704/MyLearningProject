@@ -33,12 +33,15 @@ public class CollectorsExample {
         
         List<String> list1 = deviceList.stream().filter(x->x.price>50000)
         		.map(x->x.name)
-        .collect(Collectors.toList());  // collecting as list 
+        .collect(Collectors.toList());  // collecting only names as list 
         
         deviceList.stream().filter(x->x.price>50000)
 		.map(x->x.name).forEach(System.out::println);
         
         System.out.println(devicePriceList); 
+        
+         Long noOfElements = deviceList.stream()  
+                .collect(Collectors.counting());  
         
         for(Device d:list){
         	System.out.println(d.id);

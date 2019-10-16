@@ -1,6 +1,7 @@
 package com.java;
 
 import java.util.Arrays;
+import java.util.StringJoiner;
 
 public class AnagramStringDemo1 {
 
@@ -9,6 +10,9 @@ public class AnagramStringDemo1 {
 
 	/*	String str1 = "TRIANGLE";
 		String str2 = "INTEGRAL";*/
+		/*Integer i =10;
+		 StringJoiner joinNames = new StringJoiner(","); // passing comma(,) as delimiter   
+*/         
 		
 		String str1 = "LISTEN";
 		String str2 = "SILENT";

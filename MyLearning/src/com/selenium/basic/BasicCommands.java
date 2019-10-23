@@ -3,6 +3,7 @@ package com.selenium.basic;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -21,6 +22,7 @@ public class BasicCommands {
 		
 		driver.get("https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select_multiple");
 		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		System.out.println(driver.manage().window().getSize());
 		
 		Dimension d =driver.manage().window().getSize();

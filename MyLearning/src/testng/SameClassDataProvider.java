@@ -17,7 +17,10 @@ public class SameClassDataProvider {
 	@DataProvider
 	public Object [][] dataProviderMethod(){
 		
-		Object [][] dataObject = {{"data-one"},{"data-two"}};
+		Object [][] dataObject = {
+									{"data-one"},
+									{"data-two"}
+								 };
 		
 		return dataObject;
 	

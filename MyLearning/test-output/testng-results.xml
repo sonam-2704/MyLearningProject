@@ -1,83 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="148" started-at="2019-10-23T05:38:40Z" finished-at="2019-10-23T05:38:41Z">
+  <suite name="Default suite" duration-ms="9374" started-at="2019-11-19T06:18:22Z" finished-at="2019-11-19T06:18:32Z">
     <groups>
-      <group name="first">
-        <method signature="BeforeAndAfterClass.testMethod1()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="testMethod1" class="com.java.BeforeAndAfterClass"/>
-      </group> <!-- first -->
-      <group name="second">
-        <method signature="BeforeAndAfterClass.testMethod2()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="testMethod2" class="com.java.BeforeAndAfterClass"/>
-      </group> <!-- second -->
     </groups>
-    <test name="Default test" duration-ms="148" started-at="2019-10-23T05:38:40Z" finished-at="2019-10-23T05:38:41Z">
-      <class name="com.java.BeforeAndAfterClass">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="beforeSuite" is-config="true" duration-ms="65" started-at="2019-10-23T11:08:40Z" finished-at="2019-10-23T11:08:40Z">
+    <test name="Default test" duration-ms="9374" started-at="2019-11-19T06:18:22Z" finished-at="2019-11-19T06:18:32Z">
+      <class name="com.selenium.practise.RetrieveUniqueTextFromListOfElementUsingStreamAPICollect">
+        <test-method status="PASS" signature="RetrieveTextFromListOfElementWithStremAPI()[pri:0, instance:com.selenium.practise.RetrieveUniqueTextFromListOfElementUsingStreamAPICollect@215be6bb]" name="RetrieveTextFromListOfElementWithStremAPI" duration-ms="9344" started-at="2019-11-19T11:48:22Z" finished-at="2019-11-19T11:48:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="beforeTest" is-config="true" duration-ms="2" started-at="2019-10-23T11:08:40Z" finished-at="2019-10-23T11:08:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="beforeClass" is-config="true" duration-ms="3" started-at="2019-10-23T11:08:40Z" finished-at="2019-10-23T11:08:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeGroups1()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="beforeGroups1" is-config="true" duration-ms="1" started-at="2019-10-23T11:08:40Z" finished-at="2019-10-23T11:08:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeGroups1 -->
-        <test-method status="PASS" signature="testMethod1()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="testMethod1" duration-ms="19" started-at="2019-10-23T11:08:40Z" finished-at="2019-10-23T11:08:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod1 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-23T11:08:40Z" finished-at="2019-10-23T11:08:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterGroups1()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="afterGroups1" is-config="true" duration-ms="0" started-at="2019-10-23T11:08:41Z" finished-at="2019-10-23T11:08:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterGroups1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-23T11:08:41Z" finished-at="2019-10-23T11:08:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeGroups2()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="beforeGroups2" is-config="true" duration-ms="1" started-at="2019-10-23T11:08:41Z" finished-at="2019-10-23T11:08:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeGroups2 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-23T11:08:41Z" finished-at="2019-10-23T11:08:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethod2()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="testMethod2" duration-ms="8" started-at="2019-10-23T11:08:41Z" finished-at="2019-10-23T11:08:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod2 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-10-23T11:08:41Z" finished-at="2019-10-23T11:08:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-23T11:08:41Z" finished-at="2019-10-23T11:08:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterGroups2()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="afterGroups2" is-config="true" duration-ms="0" started-at="2019-10-23T11:08:41Z" finished-at="2019-10-23T11:08:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterGroups2 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-10-23T11:08:41Z" finished-at="2019-10-23T11:08:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.java.BeforeAndAfterClass@6d00a15d]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-10-23T11:08:41Z" finished-at="2019-10-23T11:08:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.java.BeforeAndAfterClass -->
+        </test-method> <!-- RetrieveTextFromListOfElementWithStremAPI -->
+      </class> <!-- com.selenium.practise.RetrieveUniqueTextFromListOfElementUsingStreamAPICollect -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

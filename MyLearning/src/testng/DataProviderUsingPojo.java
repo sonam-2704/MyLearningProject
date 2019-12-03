@@ -18,7 +18,10 @@ public class DataProviderUsingPojo {
 	@DataProvider(name = "pojoProvider")
 	public Object[][]  dataProviderMethod() {
 
-		Object[][] dataObject = { { new DataObject("user1", "pass1") }, { new DataObject("user2", "pass2") } };
+		Object[][] dataObject = { 
+									{ new DataObject("user1", "pass1") }, 
+									{ new DataObject("user2", "pass2") } 
+								};
 
 		return dataObject;
 	}

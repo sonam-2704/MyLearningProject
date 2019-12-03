@@ -1,5 +1,11 @@
 package com.java;
 
+
+/**
+ * @author Sonam_Mittal
+ * String reverse using for loop
+ */
+
 public class PalindromeStringDemo {
 
 	public static void main(String[] args) {
@@ -22,6 +28,8 @@ public class PalindromeStringDemo {
 
 			System.out.println("Strings are equal");
 		}
+		else
+			System.out.println("Strings are not equal");
 	}
 
 }
